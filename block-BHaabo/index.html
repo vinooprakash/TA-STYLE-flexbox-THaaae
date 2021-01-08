@@ -1,8 +1,60 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Assignment 2</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/b9753e102f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-flex">
+            <div class="brand">
+                <img class="logo-img" src="/assets/media/atlcampus_logo.png" alt="AltCampus">
+            </div>
+            <div>
+                <nav>
+                    <a href="#"><i class="fas fa-bell"></i></a>
+                    <a href="#">Sarah Jone</a>
+                    <a href="#"><i class="fas fa-user-alt"></i></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container section">
+            <div class="dashboard-container">
+                <nav class="sidebar">
+                    <a class="dash-nav" href="#"><i class="fas fa-th-large"></i>Dashboard</a>
+                    <a class="dash-nav highlight-nav" href="#"><i class="far fa-newspaper"></i>Articles</a>
+                    <a class="dash-nav" href="#"><i class="fas fa-chart-bar"></i>Analytics</a>
+                    <a class="dash-nav" href="#"><i class="fas fa-inbox"></i>Inbox</a>
+                    <a class="dash-nav" href="#"><i class="fas fa-cogs"></i>Settings</a>
+                    <a class="dash-nav btn" href="#"><i class="fas fa-power-off"></i>Log Out</a>
+                </nav>
+            </div>
+            <div class="article-container">
+                <div>
+                    <img class="article-img" src="/assets/01.png" alt="Article Pic">
+                </div>
+                <h2>Why we are doing AltCampus</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sint eius ut magni sequi ea dolorum, optio vitae quae rerum iusto atque excepturi, consequatur natus, facere quasi perspiciatis laudantium totam explicabo! Consectetur eligendi quam sunt error nisi molestias excepturi rem nihil, magni asperiores natus at in. Laboriosam error eveniet beatae!</p>
+                <a href="#" class="article-btn">Read More</a>
+            </div>
+        </section>
+    </main>  
 
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+    <footer class="footer">
+        <div class="container footer-flex">
+            <div>
+                <small>&copy; AltCampus</small>
+            </div>
+            <div>
+                <a class="footer-nav" href="#"><i class="fab fa-facebook-square"></i></a>
+                <a class="footer-nav" href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

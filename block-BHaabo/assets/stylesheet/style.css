@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+
+.header {
+    background-color: #222946;
+    padding: 15px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.logo-img {
+    width: 120px;
+    height: 40px;
+}
+
+/* Dashboard Section */
+
+.section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dashboard-container {
+    background-color: #A3CAEA;
+    border-radius: 10px;
+    width: 30%;
+    padding-right: 20px;
+    margin-right: 50px;
+}
+
+.dash-nav {
+    color: black;
+    margin-left: 30px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight-nav {
+    color: orangered;
+    border: 1px solid orangered;
+    padding: 10px;    
+}
+
+.btn {
+    background-color: #F2F8FD;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 0 none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* Article Section */
+
+.article-container {
+    background-color: #F2F8FD;
+    border-radius: 10px;
+    width: 70%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.article-img {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: black;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.article-btn {
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    background-color: #37B667;
+    border: 0 none;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #222946;
+    padding: 25px;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    font-size: 18px;
+}
