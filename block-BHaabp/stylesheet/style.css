@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styling */
+
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.7;
+}
+
+.body-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header {
+    background-color: #604577;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col1 {
+    width: 45%;
+}
+
+.col2 {
+    width: 40%;
+}
+
+.brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #5EBD8B;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+/* Hero */
+
+.hero {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.hero-content {
+    color: rgb(179, 177, 177);
+    margin-bottom: 20px;
+    line-height: 1.9;
+
+}
+
+.get-started {
+    text-decoration: none;
+    background-color: #5EBD8B;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+/* Featured */
+
+.margin-1 {
+    margin-bottom: 20px;
+}
+
+.pitch {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 34px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.learn-more {
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: white;
+    padding: 10px 16px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.fa-check {
+    color: green;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.features {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Blog */
+
+.article {
+    box-shadow: 0 2px 4px gray;
+    margin-bottom: 40px;
+}
+
+.blog {
+    background-color: #fafafa;
+}
+
+.details-btn {
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: white;
+    padding: 10px 16px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.section-btn
+{
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: white;
+    padding: 10px 16px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.sec-btn {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Footer */
+
+.submit-btn {
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.form {
+    margin: 20px 0;
+}
+
+.msg-box {
+    margin-bottom: 20px;
+}
+
+.fab, .fas {
+    color: green;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.copyright {
+    background-color: #fafafa;
+    padding: 30px;
+    text-align: center;
+}
+
+.copyright-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
