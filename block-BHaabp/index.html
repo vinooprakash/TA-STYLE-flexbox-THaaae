@@ -6,157 +6,153 @@
     <title>Flexbox Assignment 3</title>
     <link rel="stylesheet" href="stylesheet/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b9753e102f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
         <div class="container flex">
-            <h1 class="brand">Prism</h1>
-            <nav class="navbar">
+            <a class="brand" href="#">
+                <h1>Prism</h1>
+            </a>
+            <nav class="nav">
                 <a href="#">HOME</a>
                 <a href="#">ABOUT</a>
                 <a href="#">GENERIC</a>
                 <a href="#">ELEMENTS</a>
             </nav>
         </div>
-        <div class="container">
-            <div class="hero flex">
-                <div class="col1">
-                    <h2>Welcome to Prism, a free responsive site template by TEMPLATED</h2>
-                </div>
-                <div class="col2">
-                    <p class="hero-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis repellendus tempore eligendi necessitatibus officiis, totam ipsum reprehenderit saepe consequuntur? Nihil.</p>
-                    <a class="get-started" href="#">GET STARTED</a>
-                </div>
-            </div>
-        </div>
     </header>
-
     <main>
-        <section class="container flex margin-1">
-            <div class="pitch col1">
-                <h3>Magna feugiat adipiscing</h3>
-                <p class="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium odit autem ducimus, nobis quis repudiandae? Tempore dolore eum ipsam fuga.</p>
-                <a class="learn-more" href="#">LEARN MORE</a>
-            </div>
-            <div class="features col2">
-                <div>
-                    <i class="fas fa-check"></i>
-                    <span>Lorem ipsum dolor sit amet</span>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container flex">
+                <div class="col col-left">
+                    <h2 class="hero-heading">Welcome to Prism, a free responsive site template by <strong>TEMPLATED</strong></h2>
                 </div>
-                <div>
-                    <i class="fas fa-check"></i>
-                    <span>Lorem ipsum dolor sit amet</span>
-                </div>
-                <div>
-                    <i class="fas fa-check"></i>
-                    <span>Lorem ipsum dolor sit amet</span>
-                </div>
-                <div>
-                    <i class="fas fa-check"></i>
-                    <span>Lorem ipsum dolor sit amet</span>
-                </div>
-                <div>
-                    <i class="fas fa-check"></i>
-                    <span>Lorem ipsum dolor sit amet</span>
+                <div class="col col-right">
+                    <article>
+                        <p class="hero-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis repellendus tempore eligendi necessitatibus officiis, totam ipsum reprehenderit</p>
+                        <a class="btn btn-primary" href="#">GET STARTED</a>
+                    </article>
                 </div>
             </div>
         </section>
-        <section>
-            <hr>
+        <!-- Features Section -->
+        <section class="padding">
+            <div class="container flex">
+                <article class="col col-left">
+                    <h3 class="heading">Magna feugiat adipiscing</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium odit autem ducimus, nobis quis repudiandae? Tempore dolore eum ipsam fuga.</p>
+                    <a class="btn btn-secondary" href="#">LEARN MORE</a>
+                </article>
+                <div class="col col-right list">
+                    <p>
+                        <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
+                    </p>
+                    <p>
+                        <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
+                    </p>
+                    <p>
+                        <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
+                    </p>
+                    <p>
+                        <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
+                    </p>
+                    <p>
+                        <i class="fas fa-check"></i>Lorem ipsum dolor sit amet
+                    </p>    
+                </div>
+            </div>
         </section>
-        <section class="blog">
+        <!-- Blog -->
+        <section class="padding blog">
             <div class="container">
-                <article class="article flex">
-                    <div class="col1">
-                        <img src="/assets/pic01.jpg" alt="Buildings">
+                <article class="flex">
+                    <div class="col-1-1">
+                        <img src="/assets/pic01.jpg" alt="Pic 1">
                     </div>
-                    <div class="col2">
-                        <h3>Magna feugiat adipiscing</h3>
-                        <p class="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium odit autem ducimus, nobis quis repudiandae? Tempore dolore eum ipsam fuga.</p>
-                        <a class="details-btn" href="#">DETAILS</a>
-                    </div>
-                </article>
-                <article class="article flex">
-                    <div class="col1">
-                        <img src="/assets/pic01.jpg" alt="Buildings">
-                    </div>
-                    <div class="col2">
-                        <h3>Magna feugiat adipiscing</h3>
-                        <p class="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium odit autem ducimus, nobis quis repudiandae? Tempore dolore eum ipsam fuga.</p>
-                        <a class="details-btn" href="#">DETAILS</a>
+                    <div class="col-1-3">
+                        <h4>Ipsum pharetra tempus</h4>
+                        <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit dicta eaque harum similique autem ullam.</p>
+                        <a class="btn btn-secondary" href="#">DETAILS</a>
                     </div>
                 </article>
-                <article class="article flex">
-                    <div class="col1">
-                        <img src="/assets/pic01.jpg" alt="Buildings">
+                <article class="flex">
+                    <div class="col-1-1">
+                        <img src="/assets/pic02.jpg" alt="Pic 2">
                     </div>
-                    <div class="col2">
-                        <h3>Magna feugiat adipiscing</h3>
-                        <p class="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium odit autem ducimus, nobis quis repudiandae? Tempore dolore eum ipsam fuga.</p>
-                        <a class="details-btn" href="#">DETAILS</a>
+                    <div class="col-1-3">
+                        <h4>Ipsum pharetra tempus</h4>
+                        <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit dicta eaque harum similique autem ullam.</p>
+                        <a class="btn btn-secondary" href="#">DETAILS</a>
                     </div>
                 </article>
+                <article class="flex">
+                    <div class="col-1-1">
+                        <img src="/assets/pic03.jpg" alt="Pic 3">
+                    </div>
+                    <div class="col-1-3">
+                        <h4>Ipsum pharetra tempus</h4>
+                        <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit dicta eaque harum similique autem ullam.</p>
+                        <a class="btn btn-secondary" href="#">DETAILS</a>
+                    </div>
+                </article>
+                <div class="center-btn">
+                    <a class="btn btn-secondary" href="#">IPSUM MAGNA TEMPUS</a>
+                </div>
             </div>
-            <div>
-                <div class="sec-btn">
-                    <a class="section-btn" href="#">IPSUM MAGNA TEMPUS</a>
+        </section>
+        <!-- Contact -->
+        <section class="padding contact">
+            <div class="container flex">
+                <div class="col col-left">
+                    <div>
+                        <h3 class="heading">
+                            Orci Malesuada
+                        </h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, praesentium?
+                        </p>
+                    </div>
+                    <form action="">
+                        <div class="flex">
+                            <input class="form-control" type="text" name="" id="" placeholder="Name">
+                        <input class="form-control" type="email" name="" id="" placeholder="Email">
+                        </div>
+                        <textarea class="form-control" name="" id="" rows="6" placeholder="Message"></textarea>
+                        <button class="btn btn-secondary">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div class="col col-right social">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        <span>twitter.com/altcamp</span>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>facebook.com/altcamp</span>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                        <span>instagram.com/altcamp</span>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@altcamp.com</span>
+                    </a>
+                    <address>
+                        <i class="fas fa-home"></i>
+                        <span>1234 Somewhere on Earth 9876 <br> Spaceville, Milky Way</span>
+                    </address>
                 </div>
             </div>
         </section>
     </main>
-
-    <footer class="footer">
-        <section>
+    <footer class="footer padding">
         <div class="container">
-            <div>
-                <h3>Orci malesuada</h3>
-                <p class="body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quasi</p>
-            </div>
-            <div class="flex">
-                <div>
-                    <form class="form col1">
-                        <label for="name"></label>
-                        <input type="text" name="name" id="name" value="Name">
-                        <br>
-                        <label for="email"></label>
-                        <input type="text" name="email"
-                        id="email" value="Email">
-                        <br>
-                        <textarea class="msg-box" name="message" id="message" cols="30" rows="8">Message</textarea>
-                        <a class="submit-btn" href="#">SEND MESSAGE</a>
-                    </form>
-                </div>
-                <div class="social-icons col2">
-                    <div>
-                    <i class="fab fa-twitter"></i>
-                    <span>twitter.com/altcamp</span>
-                    </div>
-                    <div>
-                    <i class="fab fa-facebook-f"></i>
-                    <span>facebook.com/altcamp</span>
-                    </div>
-                    <div>
-                    <i class="fab fa-instagram"></i>
-                    <span>instagram.com/altcamp</span>
-                    </div>
-                    <div>
-                    <i class="fas fa-envelope"></i>
-                    <span>info@altcamp.com</span>
-                    </div>
-                    <div>
-                    <i class="fas fa-home"></i>
-                    <span>1234 Somewhere on Earth 9876 Spaceville, Milky Way</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="copyright">
-                <small class="copyright-text">&copy;Untitled. All rights reserved. Images: Unsplash. Design: TEMPLATED</small>
-            </div>
-        </section>
+            <small class="copyright-text">&copy;Untitled. All rights reserved. Images: Unsplash. Design: TEMPLATED</small>
+        </div>
     </footer>
 </body>
 </html>
